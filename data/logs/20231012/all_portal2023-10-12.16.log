@@ -1,0 +1,11 @@
+2023-10-12 09:01:00.362  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : <==    Updates: 1
+2023-10-12 09:01:00.366  DEBUG [main                          ] - sql.ClientReviewDetailMapper.insertSelective [137] : ==>  Preparing: insert into CLIENT_REVIEW_DETAIL ( ID, RECORD_ID, CLIENT_NAME, CLIENT_POSITION, EMAIL, PHONE, SUITABILITY, CREATED_DATETIME, REVIEW_LOG, SUITABILITY_LOG ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+2023-10-12 09:01:00.366  DEBUG [main                          ] - sql.ClientReviewDetailMapper.insertSelective [137] : ==> Parameters: ISJ77A663T4KDGW4FB3FE9U4LJH6OQFG(String), 4F22187BA35849B8908852B67D8104A2(String), 11(String), 老师(String), 123@qq.com(String), 13112345678(String), N(String), 2023-10-12 08:59:55.439(Timestamp), java.io.StringReader@71c27ee8(StringReader), java.io.StringReader@3e7dd664(StringReader)
+2023-10-12 09:01:00.400  DEBUG [main                          ] - sql.ClientReviewDetailMapper.insertSelective [137] : <==    Updates: 1
+2023-10-12 09:01:00.401  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : ==>  Preparing: update CLIENT_REVIEW_COUNTERPARTY SET BENEFIT_OVER_FLAG = ?, AGREE_INFO = ? where record_Id = ?
+2023-10-12 09:01:00.401  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : ==> Parameters: 1(String), Y(String), 4F22187BA35849B8908852B67D8104A2(String)
+2023-10-12 09:01:00.433  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : <==    Updates: 4
+2023-10-12 09:01:00.434  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : ==>  Preparing: update CLIENT_REVIEW_RECORD SET SALE_PERSON = ?, ACCOUNTING_FIRM_NAME = ? where record_id = ?
+2023-10-12 09:01:00.434  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : ==> Parameters: renyu(String), 测试专用(String), 4F22187BA35849B8908852B67D8104A2(String)
+2023-10-12 09:01:00.464  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : <==    Updates: 1
+2023-10-12 09:01:00.464  INFO  [main                          ] - AutoCreateReviewFlow                         [164] : 已更新基本信息

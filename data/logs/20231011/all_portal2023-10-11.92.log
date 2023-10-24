@@ -1,0 +1,4 @@
+2023-10-11 14:42:38.452  DEBUG [main                          ] - o.a.i.datasource.pooled.PooledDataSource     [363] : PooledDataSource forcefully closed/removed all connections.
+2023-10-11 14:42:38.457  DEBUG [main                          ] - o.a.i.datasource.pooled.PooledDataSource     [363] : PooledDataSource forcefully closed/removed all connections.
+2023-10-11 14:42:38.457  DEBUG [main                          ] - o.a.i.datasource.pooled.PooledDataSource     [363] : PooledDataSource forcefully closed/removed all connections.
+2023-10-11 14:42:38.458  DEBUG [main                          ] - o.a.i.datasource.pooled.PooledDataSource     [363] : PooledDataSource forcefully closed/removed all connections.

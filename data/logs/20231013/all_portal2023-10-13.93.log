@@ -1,0 +1,10 @@
+2023-10-13 09:51:50.665  DEBUG [main                          ] - sql.ClientReviewDetailMapper.insertSelective [137] : ==>  Preparing: insert into CLIENT_REVIEW_DETAIL ( ID, RECORD_ID, CLIENT_NAME, CLIENT_POSITION, EMAIL, PHONE, SUITABILITY, CREATED_DATETIME, REVIEW_LOG, SUITABILITY_LOG ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+2023-10-13 09:51:50.668  DEBUG [main                          ] - sql.ClientReviewDetailMapper.insertSelective [137] : ==> Parameters: 25MXX0F7LW44B65L59CG0LZZ247771H0(String), D3B8F147CC8D4927933B0689693653AD(String), 11(String), 老师(String), 123@qq.com(String), 13112345678(String), N(String), 2023-10-13 09:50:55.599(Timestamp), java.io.StringReader@71c27ee8(StringReader), java.io.StringReader@3e7dd664(StringReader)
+2023-10-13 09:51:50.701  DEBUG [main                          ] - sql.ClientReviewDetailMapper.insertSelective [137] : <==    Updates: 1
+2023-10-13 09:51:50.701  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : ==>  Preparing: update CLIENT_REVIEW_COUNTERPARTY SET BENEFIT_OVER_FLAG = ?, AGREE_INFO = ? where record_Id = ?
+2023-10-13 09:51:50.702  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : ==> Parameters: 1(String), Y(String), D3B8F147CC8D4927933B0689693653AD(String)
+2023-10-13 09:51:50.732  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : <==    Updates: 4
+2023-10-13 09:51:50.733  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : ==>  Preparing: update CLIENT_REVIEW_RECORD SET SALE_PERSON = ?, ACCOUNTING_FIRM_NAME = ? where record_id = ?
+2023-10-13 09:51:50.733  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : ==> Parameters: renyu(String), 测试专用(String), D3B8F147CC8D4927933B0689693653AD(String)
+2023-10-13 09:51:50.767  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : <==    Updates: 1
+2023-10-13 09:51:50.768  INFO  [main                          ] - AutoCreateReviewFlow                         [171] : 已更新基本信息

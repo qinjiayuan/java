@@ -1,0 +1,8 @@
+2023-10-17 15:11:30.643  DEBUG [main                          ] - o.a.ibatis.transaction.jdbc.JdbcTransaction  [137] : Opening JDBC Connection
+2023-10-17 15:11:31.101  DEBUG [main                          ] - o.a.i.datasource.pooled.PooledDataSource     [434] : Created connection 1131592118.
+2023-10-17 15:11:31.106  DEBUG [main                          ] - s.C.selectByCorporateName                    [137] : ==>  Preparing: SELECT * FROM COUNTERPARTY_ORG WHERE 1=1 AND CORPORATE_NAME = ?
+2023-10-17 15:11:31.235  DEBUG [main                          ] - s.C.selectByCorporateName                    [137] : ==> Parameters: 深圳平安大华汇通********(String)
+2023-10-17 15:11:31.290  DEBUG [main                          ] - s.C.selectByCorporateName                    [137] : <==      Total: 1
+2023-10-17 15:11:31.292  DEBUG [main                          ] - sql.AorgMapper.selectExists                  [137] : ==>  Preparing: SELECT a2.userid , a.dept_code FROM AORG a LEFT JOIN Auser a2 ON a.ORGID = a2.ORGID WHERE a2.USERNAME =?
+2023-10-17 15:11:31.292  DEBUG [main                          ] - sql.AorgMapper.selectExists                  [137] : ==> Parameters: 孙滨(String)
+2023-10-17 15:11:31.310  DEBUG [main                          ] - sql.AorgMapper.selectExists                  [137] : <==      Total: 1

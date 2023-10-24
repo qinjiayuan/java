@@ -1,0 +1,4 @@
+2023-10-18 13:26:42.965  DEBUG [main                          ] - o.a.i.datasource.pooled.PooledDataSource     [363] : PooledDataSource forcefully closed/removed all connections.
+2023-10-18 13:26:42.970  DEBUG [main                          ] - o.a.i.datasource.pooled.PooledDataSource     [363] : PooledDataSource forcefully closed/removed all connections.
+2023-10-18 13:26:42.970  DEBUG [main                          ] - o.a.i.datasource.pooled.PooledDataSource     [363] : PooledDataSource forcefully closed/removed all connections.
+2023-10-18 13:26:48.693  DEBUG [main                          ] - o.a.ibatis.transaction.jdbc.JdbcTransaction  [137] : Opening JDBC Connection

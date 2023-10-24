@@ -1,0 +1,16 @@
+2023-10-13 09:34:25.228  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : ==> Parameters: BEB0F2C1908140A9B3B9D76AE485E3FA(String)
+2023-10-13 09:34:25.262  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : <==    Updates: 4
+2023-10-13 09:34:25.263  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : ==>  Preparing: DELETE FROM CLIENT_REVIEW_RECORD WHERE RECORD_ID = ?
+2023-10-13 09:34:25.264  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : ==> Parameters: BEB0F2C1908140A9B3B9D76AE485E3FA(String)
+2023-10-13 09:34:25.295  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : <==    Updates: 1
+2023-10-13 09:34:25.296  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : ==>  Preparing: DELETE FROM CLIENT_REVIEW_COUNTERPARTY WHERE RECORD_ID =?
+2023-10-13 09:34:25.296  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : ==> Parameters: 4D6B632878D94D0A9F5FAFA730848B9A(String)
+2023-10-13 09:34:25.329  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : <==    Updates: 2
+2023-10-13 09:34:25.330  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : ==>  Preparing: DELETE FROM CLIENT_REVIEW_RECORD WHERE RECORD_ID = ?
+2023-10-13 09:34:25.330  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : ==> Parameters: 4D6B632878D94D0A9F5FAFA730848B9A(String)
+2023-10-13 09:34:25.361  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : <==    Updates: 1
+2023-10-13 09:34:25.362  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : ==>  Preparing: DELETE FROM CLIENT_REVIEW_COUNTERPARTY WHERE RECORD_ID =?
+2023-10-13 09:34:25.362  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : ==> Parameters: C4DF664BF40E4E82BAC86D2068224F20(String)
+2023-10-13 09:34:25.394  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : <==    Updates: 4
+2023-10-13 09:34:25.395  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : ==>  Preparing: DELETE FROM CLIENT_REVIEW_RECORD WHERE RECORD_ID = ?
+2023-10-13 09:34:25.395  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : ==> Parameters: C4DF664BF40E4E82BAC86D2068224F20(String)

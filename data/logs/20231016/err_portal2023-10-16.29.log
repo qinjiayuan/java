@@ -1,0 +1,16 @@
+2023-10-16 09:17:43.768  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : ==> Parameters: 7ACE3124572E451289E6B8268D382C67(String)
+2023-10-16 09:17:43.807  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : <==    Updates: 4
+2023-10-16 09:17:43.808  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : ==>  Preparing: DELETE FROM CLIENT_REVIEW_RECORD WHERE RECORD_ID = ?
+2023-10-16 09:17:43.809  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : ==> Parameters: 7ACE3124572E451289E6B8268D382C67(String)
+2023-10-16 09:17:43.844  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : <==    Updates: 1
+2023-10-16 09:17:43.845  INFO  [main                          ] - AutoCreateReviewFlow                         [85] : 在途流程已经清除
+2023-10-16 09:17:43.846  DEBUG [main                          ] - s.O.selectProdnum                            [137] : ==>  Preparing: SELECT * FROM OTC_DERIVATIVE_COUNTERPARTY WHERE IS_PROD_HOLDER = '03' AND CORPORATE_NAME = ?
+2023-10-16 09:17:43.847  DEBUG [main                          ] - s.O.selectProdnum                            [137] : ==> Parameters: 测试产品关注类(String)
+2023-10-16 09:17:43.896  DEBUG [main                          ] - s.O.selectProdnum                            [137] : <==      Total: 3
+2023-10-16 09:17:45.050  INFO  [main                          ] - AutoCreateReviewFlow                         [101] : [checkDateEnd=2023-10-16, checkDateStart=2023-10-16, uniCodeList=75643523465432123]
+2023-10-16 09:18:12.750  INFO  [main                          ] - AutoCreateReviewFlow                         [106] : 多产品回访 {"serviceId":"B156C3BA98B74E9AADAC847578885B0D","errCode":{"code":200,"chs":"成功","eng":"success","exceptionClass":null},"errMsg":null,"data":[{"unifiedsocialCode":"75643523465432123","clientIdList":["DEV1100106499","DEV1100106722","DEV1100106356"],"allInfo":null,"success":true,"errMsg":null}]}
+2023-10-16 09:18:12.750  INFO  [main                          ] - AutoCreateReviewFlow                         [116] : [checkDateEnd=2023-10-16, checkDateStart=2023-10-16, uniCodeList=75643523465432123]
+2023-10-16 09:18:37.247  INFO  [main                          ] - AutoCreateReviewFlow                         [122] : 单产品回访{"serviceId":"6F548FB6F29F40369EB7645F18E9B0DC","errCode":{"code":200,"chs":"成功","eng":"success","exceptionClass":null},"errMsg":null,"data":[{"unifiedsocialCode":"75643523465432123","clientIdList":["DEV1100106355"],"allInfo":null,"success":true,"errMsg":null}]}
+2023-10-16 09:18:37.248  INFO  [main                          ] - AutoCreateReviewFlow                         [129] : 32
+2023-10-16 09:18:37.248  DEBUG [main                          ] - s.C.selectByClientName                       [137] : ==>  Preparing: SELECT * FROM CLIENT_REVIEW_RECORD WHERE 1=1 AND CLIENT_NAME = ? AND current_status not in ('CLOSED')
+2023-10-16 09:18:37.249  DEBUG [main                          ] - s.C.selectByClientName                       [137] : ==> Parameters: 测试产品关注类(String)

@@ -1,0 +1,16 @@
+2023-10-13 09:51:50.498  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==> Parameters: NECIPS(String), D3B8F147CC8D4927933B0689693653AD(String), 267cc1b7-1d2b-4889-96fe-2403d9bc1155(String)
+2023-10-13 09:51:50.533  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : <==    Updates: 1
+2023-10-13 09:51:50.533  INFO  [main                          ] - AutoCreateReviewFlow                         [141] : 正在上传的recordid:D3B8F147CC8D4927933B0689693653AD
+2023-10-13 09:51:50.533  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==>  Preparing: UPDATE CLIENT_REVIEW_FILE_RECORD SET FILE_BELONG = ? , RECORD_ID = ? WHERE S3_FILE_ID =?
+2023-10-13 09:51:50.533  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==> Parameters: CJO(String), D3B8F147CC8D4927933B0689693653AD(String), 4dc16db0-2754-43c4-af63-4d8339714395(String)
+2023-10-13 09:51:50.565  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : <==    Updates: 1
+2023-10-13 09:51:50.565  INFO  [main                          ] - AutoCreateReviewFlow                         [141] : 正在上传的recordid:D3B8F147CC8D4927933B0689693653AD
+2023-10-13 09:51:50.567  DEBUG [main                          ] - sql.ClientReviewDetailMapper.insertSelective [137] : ==>  Preparing: insert into CLIENT_REVIEW_DETAIL ( ID, RECORD_ID, CLIENT_NAME, CLIENT_POSITION, EMAIL, PHONE, SUITABILITY, CREATED_DATETIME, REVIEW_LOG, SUITABILITY_LOG ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+2023-10-13 09:51:50.567  DEBUG [main                          ] - sql.ClientReviewDetailMapper.insertSelective [137] : ==> Parameters: 0VVKDL76JCWTMG96643I78O8PWYO3QU1(String), 2E7A6AF72F42413EAB47B65EEDEDF501(String), 11(String), 老师(String), 123@qq.com(String), 13112345678(String), N(String), 2023-10-13 09:50:55.599(Timestamp), java.io.StringReader@77825085(StringReader), java.io.StringReader@3568f9d2(StringReader)
+2023-10-13 09:51:50.597  DEBUG [main                          ] - sql.ClientReviewDetailMapper.insertSelective [137] : <==    Updates: 1
+2023-10-13 09:51:50.599  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : ==>  Preparing: update CLIENT_REVIEW_COUNTERPARTY SET BENEFIT_OVER_FLAG = ?, AGREE_INFO = ? where record_Id = ?
+2023-10-13 09:51:50.599  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : ==> Parameters: 1(String), Y(String), 2E7A6AF72F42413EAB47B65EEDEDF501(String)
+2023-10-13 09:51:50.629  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : <==    Updates: 2
+2023-10-13 09:51:50.633  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : ==>  Preparing: update CLIENT_REVIEW_RECORD SET SALE_PERSON = ?, ACCOUNTING_FIRM_NAME = ? where record_id = ?
+2023-10-13 09:51:50.633  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : ==> Parameters: renyu(String), 测试专用(String), 2E7A6AF72F42413EAB47B65EEDEDF501(String)
+2023-10-13 09:51:50.664  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : <==    Updates: 1

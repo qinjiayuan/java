@@ -1,0 +1,16 @@
+2023-10-13 10:24:08.002  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : ==>  Preparing: update CLIENT_REVIEW_COUNTERPARTY SET BENEFIT_OVER_FLAG = ?, AGREE_INFO = ? where record_Id = ?
+2023-10-13 10:24:08.006  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : ==> Parameters: 1(String), Y(String), F20993C3F3F5409DBE2C73834B1892A8(String)
+2023-10-13 10:24:08.035  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : <==    Updates: 4
+2023-10-13 10:24:08.038  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : ==>  Preparing: update CLIENT_REVIEW_RECORD SET SALE_PERSON = ?, ACCOUNTING_FIRM_NAME = ? where record_id = ?
+2023-10-13 10:24:08.038  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : ==> Parameters: renyu(String), 测试专用(String), F20993C3F3F5409DBE2C73834B1892A8(String)
+2023-10-13 10:24:08.068  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : <==    Updates: 1
+2023-10-13 10:24:08.068  DEBUG [main                          ] - sql.ClientReviewDetailMapper.insertSelective [137] : ==>  Preparing: insert into CLIENT_REVIEW_DETAIL ( ID, RECORD_ID, CLIENT_NAME, CLIENT_POSITION, EMAIL, PHONE, SUITABILITY, CREATED_DATETIME, REVIEW_LOG, SUITABILITY_LOG ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+2023-10-13 10:24:08.069  DEBUG [main                          ] - sql.ClientReviewDetailMapper.insertSelective [137] : ==> Parameters: 8036H1CMA81962GFL4570NE29Q744UMC(String), B9FF54D7774245C2BA7CD21A365F61CB(String), 11(String), 老师(String), 123@qq.com(String), 13112345678(String), N(String), 2023-10-13 10:23:07.221(Timestamp), java.io.StringReader@3568f9d2(StringReader), java.io.StringReader@71c27ee8(StringReader)
+2023-10-13 10:24:08.100  DEBUG [main                          ] - sql.ClientReviewDetailMapper.insertSelective [137] : <==    Updates: 1
+2023-10-13 10:24:08.101  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : ==>  Preparing: update CLIENT_REVIEW_COUNTERPARTY SET BENEFIT_OVER_FLAG = ?, AGREE_INFO = ? where record_Id = ?
+2023-10-13 10:24:08.101  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : ==> Parameters: 1(String), Y(String), B9FF54D7774245C2BA7CD21A365F61CB(String)
+2023-10-13 10:24:08.131  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : <==    Updates: 2
+2023-10-13 10:24:08.132  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : ==>  Preparing: update CLIENT_REVIEW_RECORD SET SALE_PERSON = ?, ACCOUNTING_FIRM_NAME = ? where record_id = ?
+2023-10-13 10:24:08.132  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : ==> Parameters: renyu(String), 测试专用(String), B9FF54D7774245C2BA7CD21A365F61CB(String)
+2023-10-13 10:24:08.163  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : <==    Updates: 1
+2023-10-13 10:24:08.163  INFO  [main                          ] - AutoCreateReviewFlow                         [169] : 已更新基本信息

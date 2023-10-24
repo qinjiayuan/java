@@ -1,0 +1,58 @@
+[DEBUG][23-09-26][org.apache.http.client.protocol.RequestAddCookies]CookieSpec selected: default
+[DEBUG][23-09-26][org.apache.http.client.protocol.RequestAuthCache]Auth cache not set in the context
+[DEBUG][23-09-26][org.apache.http.impl.conn.PoolingHttpClientConnectionManager]Connection request: [route: {}->http://10.128.8.49:5050][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[DEBUG][23-09-26][org.apache.http.impl.conn.PoolingHttpClientConnectionManager]Connection leased: [id: 0][route: {}->http://10.128.8.49:5050][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[DEBUG][23-09-26][org.apache.http.impl.execchain.MainClientExec]Opening connection {}->http://10.128.8.49:5050
+[DEBUG][23-09-26][org.apache.http.impl.conn.DefaultHttpClientConnectionOperator]Connecting to /10.128.8.49:5050
+[DEBUG][23-09-26][org.apache.http.impl.conn.DefaultHttpClientConnectionOperator]Connection established 10.50.72.116:51460<->10.128.8.49:5050
+[DEBUG][23-09-26][org.apache.http.impl.execchain.MainClientExec]Executing request POST /createflow HTTP/1.1
+[DEBUG][23-09-26][org.apache.http.impl.execchain.MainClientExec]Target auth state: UNCHALLENGED
+[DEBUG][23-09-26][org.apache.http.impl.execchain.MainClientExec]Proxy auth state: UNCHALLENGED
+[DEBUG][23-09-26][org.apache.http.headers]http-outgoing-0 >> POST /createflow HTTP/1.1
+[DEBUG][23-09-26][org.apache.http.headers]http-outgoing-0 >> Content-Length: 140
+[DEBUG][23-09-26][org.apache.http.headers]http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+[DEBUG][23-09-26][org.apache.http.headers]http-outgoing-0 >> Host: 10.128.8.49:5050
+[DEBUG][23-09-26][org.apache.http.headers]http-outgoing-0 >> Connection: Keep-Alive
+[DEBUG][23-09-26][org.apache.http.headers]http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_381)
+[DEBUG][23-09-26][org.apache.http.headers]http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 >> "POST /createflow HTTP/1.1[\r][\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 >> "Content-Length: 140[\r][\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 >> "Host: 10.128.8.49:5050[\r][\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_381)[\r][\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 >> "[\r][\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 >> "CORPORATE_NAME=%E6%B5%8B%E8%AF%95%E4%BA%A7%E5%93%81%E5%85%B3%E6%B3%A8%E7%B1%BB&USER=%E5%AD%99%E6%BB%A8&isNewflow=0&ENVIRONMENT=216&PORT=9090"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "HTTP/1.0 200 OK[\r][\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "Content-Length: 396[\r][\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "Server: Werkzeug/2.0.3 Python/3.6.8[\r][\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "Date: Tue, 26 Sep 2023 03:22:29 GMT[\r][\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "[\r][\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "{[\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "  "data": [[\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "    {[\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "      "allInfo": null, [\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "      "clientIdList": [[\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "        "DEV1100106355"[\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "      ], [\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "      "errMsg": null, [\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "      "success": true, [\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "      "unifiedsocialCode": "75643523465432123"[\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "    }[\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "  ], [\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "  "errCode": {[\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "    "chs": "\u6210\u529f", [\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "    "code": 200, [\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "    "eng": "success", [\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "    "exceptionClass": null[\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "  }, [\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "  "errMsg": null, [\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "  "serviceId": "41571D64C3354C848F3DF97BBD6AAC5A"[\n]"
+[DEBUG][23-09-26][org.apache.http.wire]http-outgoing-0 << "}[\n]"
+[DEBUG][23-09-26][org.apache.http.headers]http-outgoing-0 << HTTP/1.0 200 OK
+[DEBUG][23-09-26][org.apache.http.headers]http-outgoing-0 << Content-Type: application/json
+[DEBUG][23-09-26][org.apache.http.headers]http-outgoing-0 << Content-Length: 396
+[DEBUG][23-09-26][org.apache.http.headers]http-outgoing-0 << Server: Werkzeug/2.0.3 Python/3.6.8
+[DEBUG][23-09-26][org.apache.http.headers]http-outgoing-0 << Date: Tue, 26 Sep 2023 03:22:29 GMT

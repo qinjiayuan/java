@@ -1,0 +1,8 @@
+2023-10-11 13:32:31.453  INFO  [main                          ] - CreateMonitorFlow                            [66] : today is :2023-04-13
+2023-10-11 13:32:31.510  DEBUG [main                          ] - s.O.updateBycorporateName                    [137] : ==>  Preparing: update OTC_DERIVATIVE_COUNTERPARTY SET MASTER_AGREEMENT_DATE = ?, CUSTOMER_MANAGER = ?, CLIENT_QUALIFY_REVIEW = ?, RETURN_VISIT_DATE = ?, ALLOW_BUSI_TYPE = ?, AML_MONITOR_FLAG = ? where corporate_name = ?
+2023-10-11 13:32:31.511  DEBUG [main                          ] - s.O.updateBycorporateName                    [137] : ==> Parameters: 2023-04-13 13:32:31.453(Timestamp), 孙滨(String), true(String), 2023-04-13 13:32:31.453(Timestamp), OPTION(String), true(String), 测试产品关注类(String)
+2023-10-11 13:32:31.542  DEBUG [main                          ] - s.O.updateBycorporateName                    [137] : <==    Updates: 4
+2023-10-11 13:32:31.545  DEBUG [main                          ] - s.O.selectClientId                           [137] : ==>  Preparing: SELECT CLIENT_ID FROM OTC_DERIVATIVE_COUNTERPARTY WHERE CORPORATE_NAME = ? AND IS_PROD_HOLDER = '03'
+2023-10-11 13:32:31.545  DEBUG [main                          ] - s.O.selectClientId                           [137] : ==> Parameters: 测试产品关注类(String)
+2023-10-11 13:32:31.600  DEBUG [main                          ] - s.O.selectClientId                           [137] : <==      Total: 3
+2023-10-11 13:32:31.601  ERROR [main                          ] - CreateMonitorFlow                            [100] : error is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 3

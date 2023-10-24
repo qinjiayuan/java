@@ -1,0 +1,14 @@
+2023-10-11 14:43:24.761  INFO  [main                          ] - CreateMonitorFlow                            [73] : today is :2023-04-13
+2023-10-11 14:43:24.766  INFO  [main                          ] - CreateMonitorFlow                            [74] : now is 2023-10-11
+2023-10-11 14:43:24.877  DEBUG [main                          ] - s.O.updateBycorporateName                    [137] : ==>  Preparing: update OTC_DERIVATIVE_COUNTERPARTY SET MASTER_AGREEMENT_DATE = ?, CUSTOMER_MANAGER = ?, CLIENT_QUALIFY_REVIEW = ?, RETURN_VISIT_DATE = ?, ALLOW_BUSI_TYPE = ?, AML_MONITOR_FLAG = ? where corporate_name = ?
+2023-10-11 14:43:24.879  DEBUG [main                          ] - s.O.updateBycorporateName                    [137] : ==> Parameters: 2023-04-13 14:43:24.76(Timestamp), sunbin(String), true(String), 2023-04-13 14:43:24.76(Timestamp), OPTION(String), true(String), 测试产品关注类(String)
+2023-10-11 14:43:24.911  DEBUG [main                          ] - s.O.updateBycorporateName                    [137] : <==    Updates: 4
+2023-10-11 14:43:24.915  DEBUG [main                          ] - s.O.selectClientId                           [137] : ==>  Preparing: SELECT CLIENT_ID FROM OTC_DERIVATIVE_COUNTERPARTY WHERE CORPORATE_NAME = ? AND IS_PROD_HOLDER = '03'
+2023-10-11 14:43:24.916  DEBUG [main                          ] - s.O.selectClientId                           [137] : ==> Parameters: 测试产品关注类(String)
+2023-10-11 14:43:24.991  DEBUG [main                          ] - s.O.selectClientId                           [137] : <==      Total: 3
+2023-10-11 14:43:26.115  INFO  [main                          ] - CreateMonitorFlow                            [97] : [clientId=DEV1100106499, date=2023-10-11]
+2023-10-11 14:43:30.484  INFO  [main                          ] - CreateMonitorFlow                            [102] : ResponseEntityProxy{[Content-Type: application/json;charset=UTF-8,Chunked: true]}
+2023-10-11 14:43:30.486  INFO  [main                          ] - CreateMonitorFlow                            [97] : [clientId=DEV1100106356, date=2023-10-11]
+2023-10-11 14:43:34.121  INFO  [main                          ] - CreateMonitorFlow                            [102] : ResponseEntityProxy{[Content-Type: application/json;charset=UTF-8,Chunked: true]}
+2023-10-11 14:43:34.122  INFO  [main                          ] - CreateMonitorFlow                            [97] : [clientId=DEV1100106722, date=2023-10-11]
+2023-10-11 14:43:37.580  INFO  [main                          ] - CreateMonitorFlow                            [102] : ResponseEntityProxy{[Content-Type: application/json;charset=UTF-8,Chunked: true]}

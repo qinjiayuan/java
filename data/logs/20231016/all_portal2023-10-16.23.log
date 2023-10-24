@@ -1,0 +1,16 @@
+2023-10-16 08:59:02.179  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : <==    Updates: 1
+2023-10-16 08:59:02.185  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==>  Preparing: UPDATE CLIENT_REVIEW_FILE_RECORD SET FILE_BELONG = ? , RECORD_ID = ? WHERE S3_FILE_ID =?
+2023-10-16 08:59:02.186  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==> Parameters: NECIPS(String), 7ACE3124572E451289E6B8268D382C67(String), 033dfa25-5e81-4c72-a02b-6e14e8574b7b(String)
+2023-10-16 08:59:02.218  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : <==    Updates: 1
+2023-10-16 08:59:02.219  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==>  Preparing: UPDATE CLIENT_REVIEW_FILE_RECORD SET FILE_BELONG = ? , RECORD_ID = ? WHERE S3_FILE_ID =?
+2023-10-16 08:59:02.220  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==> Parameters: CJO(String), 7ACE3124572E451289E6B8268D382C67(String), b8352c68-fcf2-42aa-ab85-48753e5e58b5(String)
+2023-10-16 08:59:02.252  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : <==    Updates: 1
+2023-10-16 08:59:02.257  DEBUG [main                          ] - sql.ClientReviewDetailMapper.insertSelective [137] : ==>  Preparing: insert into CLIENT_REVIEW_DETAIL ( ID, RECORD_ID, CLIENT_NAME, CLIENT_POSITION, EMAIL, PHONE, SUITABILITY, CREATED_DATETIME, REVIEW_LOG, SUITABILITY_LOG ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+2023-10-16 08:59:02.258  DEBUG [main                          ] - sql.ClientReviewDetailMapper.insertSelective [137] : ==> Parameters: 2S8P1U6W9CUEB1IR326A4H1UW6T5203Y(String), 9C2C2B55753F4201BD4C5C43CD0E2081(String), 11(String), 老师(String), 123@qq.com(String), 13112345678(String), N(String), 2023-10-16 08:58:04.606(Timestamp), java.io.StringReader@3e7dd664(StringReader), java.io.StringReader@5b1ebf56(StringReader)
+2023-10-16 08:59:02.292  DEBUG [main                          ] - sql.ClientReviewDetailMapper.insertSelective [137] : <==    Updates: 1
+2023-10-16 08:59:02.298  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : ==>  Preparing: update CLIENT_REVIEW_COUNTERPARTY SET BENEFIT_OVER_FLAG = ?, AGREE_INFO = ? where record_Id = ?
+2023-10-16 08:59:02.299  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : ==> Parameters: 1(String), Y(String), 9C2C2B55753F4201BD4C5C43CD0E2081(String)
+2023-10-16 08:59:02.333  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : <==    Updates: 2
+2023-10-16 08:59:02.341  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : ==>  Preparing: update CLIENT_REVIEW_RECORD SET SALE_PERSON = ?, ACCOUNTING_FIRM_NAME = ? where record_id = ?
+2023-10-16 08:59:02.342  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : ==> Parameters: renyu(String), 测试专用(String), 9C2C2B55753F4201BD4C5C43CD0E2081(String)
+2023-10-16 08:59:02.376  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : <==    Updates: 1

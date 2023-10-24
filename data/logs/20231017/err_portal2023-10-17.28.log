@@ -1,0 +1,8 @@
+2023-10-17 15:37:53.915  DEBUG [main                          ] - s.O.selectProdnum                            [137] : ==> Parameters: 测试产品关注类(String)
+2023-10-17 15:37:53.960  DEBUG [main                          ] - s.O.selectProdnum                            [137] : <==      Total: 3
+2023-10-17 15:37:54.374  INFO  [main                          ] - AutoCreateReviewFlow                         [102] : [checkDateEnd=2023-10-17, checkDateStart=2023-10-17, uniCodeList=75643523465432123]
+2023-10-17 15:38:20.503  INFO  [main                          ] - AutoCreateReviewFlow                         [107] : 多产品回访 {"serviceId":"0762A744466E44C6A0E5AF04FF76C422","errCode":{"code":200,"chs":"成功","eng":"success","exceptionClass":null},"errMsg":null,"data":[{"unifiedsocialCode":"75643523465432123","clientIdList":["DEV1100106499","DEV1100106722","DEV1100106356"],"allInfo":null,"success":true,"errMsg":null}]}
+2023-10-17 15:38:20.504  INFO  [main                          ] - AutoCreateReviewFlow                         [118] : [checkDateEnd=2023-10-17, checkDateStart=2023-10-17, uniCodeList=75643523465432123]
+2023-10-17 15:38:45.968  INFO  [main                          ] - AutoCreateReviewFlow                         [124] : 单产品回访{"serviceId":"0D85F241478E458887AF31D586D39762","errCode":{"code":200,"chs":"成功","eng":"success","exceptionClass":null},"errMsg":null,"data":[{"unifiedsocialCode":"75643523465432123","clientIdList":["DEV1100106355"],"allInfo":null,"success":true,"errMsg":null}]}
+2023-10-17 15:38:45.969  INFO  [main                          ] - AutoCreateReviewFlow                         [131] : 32
+2023-10-17 15:38:45.970  INFO  [main                          ] - AutoCreateReviewFlow                         [171] : 已更新基本信息

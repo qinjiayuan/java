@@ -1,0 +1,16 @@
+2023-10-12 09:00:59.585  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==> Parameters: CCPAIMIS(String), 03845AEA88E04DBBB34235EC0CA3F62B(String), e1a39814-1040-44ff-a1c9-43c8bdfbac67(String)
+2023-10-12 09:00:59.618  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : <==    Updates: 1
+2023-10-12 09:00:59.618  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==>  Preparing: UPDATE CLIENT_REVIEW_FILE_RECORD SET FILE_BELONG = ? , RECORD_ID = ? WHERE S3_FILE_ID =?
+2023-10-12 09:00:59.619  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==> Parameters: CC(String), 03845AEA88E04DBBB34235EC0CA3F62B(String), 281d1312-da21-4c90-965b-3370b6087da0(String)
+2023-10-12 09:00:59.651  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : <==    Updates: 1
+2023-10-12 09:00:59.652  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==>  Preparing: UPDATE CLIENT_REVIEW_FILE_RECORD SET FILE_BELONG = ? , RECORD_ID = ? WHERE S3_FILE_ID =?
+2023-10-12 09:00:59.652  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==> Parameters: P2P(String), 03845AEA88E04DBBB34235EC0CA3F62B(String), 616d84af-40a2-4a56-80ca-8d4d51d64ee5(String)
+2023-10-12 09:00:59.686  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : <==    Updates: 1
+2023-10-12 09:00:59.688  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==>  Preparing: UPDATE CLIENT_REVIEW_FILE_RECORD SET FILE_BELONG = ? , RECORD_ID = ? WHERE S3_FILE_ID =?
+2023-10-12 09:00:59.688  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==> Parameters: OTHERS(String), 03845AEA88E04DBBB34235EC0CA3F62B(String), 7fd22c9a-e9f9-4573-bcc5-6a5d85de91a4(String)
+2023-10-12 09:00:59.719  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : <==    Updates: 1
+2023-10-12 09:00:59.719  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==>  Preparing: UPDATE CLIENT_REVIEW_FILE_RECORD SET FILE_BELONG = ? , RECORD_ID = ? WHERE S3_FILE_ID =?
+2023-10-12 09:00:59.720  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==> Parameters: NECIPS(String), 03845AEA88E04DBBB34235EC0CA3F62B(String), c5ee6a3d-a58b-4ff3-9597-49b413d706ac(String)
+2023-10-12 09:00:59.752  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : <==    Updates: 1
+2023-10-12 09:00:59.753  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==>  Preparing: UPDATE CLIENT_REVIEW_FILE_RECORD SET FILE_BELONG = ? , RECORD_ID = ? WHERE S3_FILE_ID =?
+2023-10-12 09:00:59.753  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==> Parameters: CJO(String), 03845AEA88E04DBBB34235EC0CA3F62B(String), cee71e6d-169e-4fd8-84d3-e4f7c2407369(String)

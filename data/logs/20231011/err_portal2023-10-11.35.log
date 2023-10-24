@@ -1,0 +1,8 @@
+2023-10-11 13:26:36.731  DEBUG [main                          ] - o.a.ibatis.transaction.jdbc.JdbcTransaction  [137] : Opening JDBC Connection
+2023-10-11 13:26:37.406  DEBUG [main                          ] - o.a.i.datasource.pooled.PooledDataSource     [434] : Created connection 1754894440.
+2023-10-11 13:26:37.410  DEBUG [main                          ] - s.C.deleteByCorporateName                    [137] : ==>  Preparing: DELETE FROM CLIENT_REVIEW_RECORD WHERE CLIENT_NAME = ? AND CURRENT_STATUS = 'CLOSED'
+2023-10-11 13:26:37.520  DEBUG [main                          ] - s.C.deleteByCorporateName                    [137] : ==> Parameters: 测试产品关注类(String)
+2023-10-11 13:26:37.559  DEBUG [main                          ] - s.C.deleteByCorporateName                    [137] : <==    Updates: 0
+2023-10-11 13:26:37.560  DEBUG [main                          ] - s.C.deleteByCorporateName                    [137] : ==>  Preparing: DELETE FROM COUNTERPARTY_PROD_MONITOR_FLOW WHERE CURRENT_STATUS !='CLOSED' AND CORPORATE_NAME = ?
+2023-10-11 13:26:37.560  DEBUG [main                          ] - s.C.deleteByCorporateName                    [137] : ==> Parameters: 测试产品关注类(String)
+2023-10-11 13:26:37.590  DEBUG [main                          ] - s.C.deleteByCorporateName                    [137] : <==    Updates: 0

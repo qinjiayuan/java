@@ -1,0 +1,16 @@
+2023-10-13 09:35:21.737  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==>  Preparing: UPDATE CLIENT_REVIEW_FILE_RECORD SET FILE_BELONG = ? , RECORD_ID = ? WHERE S3_FILE_ID =?
+2023-10-13 09:35:21.740  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==> Parameters: CC(String), 41BA913647D24571A0AC7D7ACB65D104(String), 6771918e-2edd-403e-8a14-d5eea5e97f44(String)
+2023-10-13 09:35:21.772  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : <==    Updates: 1
+2023-10-13 09:35:21.772  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==>  Preparing: UPDATE CLIENT_REVIEW_FILE_RECORD SET FILE_BELONG = ? , RECORD_ID = ? WHERE S3_FILE_ID =?
+2023-10-13 09:35:21.773  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==> Parameters: P2P(String), 41BA913647D24571A0AC7D7ACB65D104(String), 78bd425c-1c01-488d-bbfd-187c4af0a1c5(String)
+2023-10-13 09:35:21.805  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : <==    Updates: 1
+2023-10-13 09:35:21.805  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==>  Preparing: UPDATE CLIENT_REVIEW_FILE_RECORD SET FILE_BELONG = ? , RECORD_ID = ? WHERE S3_FILE_ID =?
+2023-10-13 09:35:21.805  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==> Parameters: OTHERS(String), 41BA913647D24571A0AC7D7ACB65D104(String), 762ef51e-384f-427b-a851-4a0666c2cd79(String)
+2023-10-13 09:35:21.837  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : <==    Updates: 1
+2023-10-13 09:35:21.837  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==>  Preparing: UPDATE CLIENT_REVIEW_FILE_RECORD SET FILE_BELONG = ? , RECORD_ID = ? WHERE S3_FILE_ID =?
+2023-10-13 09:35:21.837  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==> Parameters: NECIPS(String), 41BA913647D24571A0AC7D7ACB65D104(String), 43fcb611-8101-4ac2-971d-d9e499d2adce(String)
+2023-10-13 09:35:21.869  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : <==    Updates: 1
+2023-10-13 09:35:21.869  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==>  Preparing: UPDATE CLIENT_REVIEW_FILE_RECORD SET FILE_BELONG = ? , RECORD_ID = ? WHERE S3_FILE_ID =?
+2023-10-13 09:35:21.870  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==> Parameters: CJO(String), 41BA913647D24571A0AC7D7ACB65D104(String), e2846f35-32c7-4cfb-a727-e6c2de874c21(String)
+2023-10-13 09:35:21.902  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : <==    Updates: 1
+2023-10-13 09:35:21.904  DEBUG [main                          ] - sql.ClientReviewDetailMapper.insertSelective [137] : ==>  Preparing: insert into CLIENT_REVIEW_DETAIL ( ID, RECORD_ID, CLIENT_NAME, CLIENT_POSITION, EMAIL, PHONE, SUITABILITY, CREATED_DATETIME, REVIEW_LOG, SUITABILITY_LOG ) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )

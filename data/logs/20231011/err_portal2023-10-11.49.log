@@ -1,0 +1,2 @@
+2023-10-11 13:35:02.119  DEBUG [main                          ] - org.apache.ibatis.logging.LogFactory         [105] : Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-10-11 13:35:02.190  DEBUG [main                          ] - org.apache.ibatis.logging.LogFactory         [105] : Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.

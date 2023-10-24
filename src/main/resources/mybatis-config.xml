@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="logImpl" value="SLF4J"/>
+    </settings>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="oracle.jdbc.OracleDriver"/>
+                <property name="url" value="jdbc:oracle:thin:@jgjtest.oracle.db.gf.com.cn:1521/jgjtest"/>
+                <property name="username" value="gf_otc"/>
+                <property name="password" value="otc1qazXSW@"/>
+<!--                <property name="driver" value="oracle.jdbc.OracleDriver"/>-->
+<!--                <property name="url" value="jdbc:oracle:thin:@//10.128.4.166:1521/testdb"/>-->
+<!--                <property name="username" value="gf_otc"/>-->
+<!--                <property name="password" value="otc_123456"/>-->
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+
+
+
+        <mapper resource="mapper/OtcDerivayiveCounterpartyMapper.xml"/>
+        <mapper resource="mapper/CounterpartyOrgMapper.xml"/>
+        <mapper resource="mapper/BeneficiaryOrgMapper.xml"/>
+        <mapper resource="mapper/ClientReviewBufferMapper.xml"/>
+        <mapper resource="mapper/ClientReviewCounterpartyMapper.xml"/>
+        <mapper resource="mapper/ClientReviewDetailMapper.xml"/>
+        <mapper resource="mapper/ClientReviewFileRecordMapper.xml"/>
+        <mapper resource="mapper/ClientReviewRecordMapper.xml"/>
+        <mapper resource="mapper/CounterpartyOrgMapper.xml"/>
+        <mapper resource="mapper/CounterpartyProdMonitorFlowMapper.xml"/>
+        <mapper resource="mapper/CrtExpiredRecordMapper.xml"/>
+        <mapper resource="mapper/CtptyInfoUpdateRecordMapper.xml"/>
+        <mapper resource="mapper/ProcessExpiredRemindMapper.xml"/>
+        <mapper resource="mapper/AorgMapper.xml"/>
+        <mapper resource="mapper/AuserMapper.xml"/>
+
+<!--        -->
+
+
+        
+
+    </mappers>
+
+</configuration>
+

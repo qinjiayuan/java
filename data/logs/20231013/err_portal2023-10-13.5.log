@@ -1,0 +1,16 @@
+2023-10-13 08:43:18.666  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : ==>  Preparing: DELETE FROM CLIENT_REVIEW_RECORD WHERE RECORD_ID = ?
+2023-10-13 08:43:18.671  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : ==> Parameters: C4DF664BF40E4E82BAC86D2068224F20(String)
+2023-10-13 08:43:18.703  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : <==    Updates: 1
+2023-10-13 08:43:18.704  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : ==>  Preparing: DELETE FROM CLIENT_REVIEW_COUNTERPARTY WHERE RECORD_ID =?
+2023-10-13 08:43:18.705  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : ==> Parameters: 6A61000623814BD6B33C3871FAC72C52(String)
+2023-10-13 08:43:18.739  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : <==    Updates: 2
+2023-10-13 08:43:18.740  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : ==>  Preparing: DELETE FROM CLIENT_REVIEW_RECORD WHERE RECORD_ID = ?
+2023-10-13 08:43:18.740  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : ==> Parameters: 6A61000623814BD6B33C3871FAC72C52(String)
+2023-10-13 08:43:18.772  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : <==    Updates: 1
+2023-10-13 08:43:18.773  INFO  [main                          ] - AutoCreateReviewFlow                         [83] : 在途流程已经清除
+2023-10-13 08:43:18.773  DEBUG [main                          ] - s.O.selectProdnum                            [137] : ==>  Preparing: SELECT * FROM OTC_DERIVATIVE_COUNTERPARTY WHERE IS_PROD_HOLDER = '03' AND CORPORATE_NAME = ?
+2023-10-13 08:43:18.774  DEBUG [main                          ] - s.O.selectProdnum                            [137] : ==> Parameters: 测试产品关注类(String)
+2023-10-13 08:43:18.823  DEBUG [main                          ] - s.O.selectProdnum                            [137] : <==      Total: 3
+2023-10-13 08:43:19.499  INFO  [main                          ] - AutoCreateReviewFlow                         [99] : [checkDateEnd=2023-10-13, checkDateStart=2023-10-13, uniCodeList=75643523465432123]
+2023-10-13 08:43:46.388  INFO  [main                          ] - AutoCreateReviewFlow                         [104] : 多产品回访 {"serviceId":"DBFE3F66B7A540ECAA07020A77330304","errCode":{"code":200,"chs":"成功","eng":"success","exceptionClass":null},"errMsg":null,"data":[{"unifiedsocialCode":"75643523465432123","clientIdList":["DEV1100106499","DEV1100106722","DEV1100106356"],"allInfo":null,"success":true,"errMsg":null}]}
+2023-10-13 08:43:46.388  INFO  [main                          ] - AutoCreateReviewFlow                         [114] : [checkDateEnd=2023-10-13, checkDateStart=2023-10-13, uniCodeList=75643523465432123]

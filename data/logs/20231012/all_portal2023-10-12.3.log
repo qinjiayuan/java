@@ -1,0 +1,8 @@
+2023-10-12 08:59:03.449  DEBUG [main                          ] - o.a.i.datasource.pooled.PooledDataSource     [434] : Created connection 1637290981.
+2023-10-12 08:59:03.455  DEBUG [main                          ] - s.C.deleteByCorporateName                    [137] : ==>  Preparing: DELETE FROM CLIENT_REVIEW_RECORD WHERE CLIENT_NAME = ? AND CURRENT_STATUS = 'CLOSED'
+2023-10-12 08:59:03.608  DEBUG [main                          ] - s.C.deleteByCorporateName                    [137] : ==> Parameters: 测试产品关注类(String)
+2023-10-12 08:59:03.649  DEBUG [main                          ] - s.C.deleteByCorporateName                    [137] : <==    Updates: 0
+2023-10-12 08:59:03.650  DEBUG [main                          ] - s.C.deleteByCorporateName                    [137] : ==>  Preparing: DELETE FROM COUNTERPARTY_PROD_MONITOR_FLOW WHERE CURRENT_STATUS !='CLOSED' AND CORPORATE_NAME = ?
+2023-10-12 08:59:03.650  DEBUG [main                          ] - s.C.deleteByCorporateName                    [137] : ==> Parameters: 测试产品关注类(String)
+2023-10-12 08:59:03.686  DEBUG [main                          ] - s.C.deleteByCorporateName                    [137] : <==    Updates: 2
+2023-10-12 08:59:03.687  INFO  [main                          ] - CreateMonitorFlow                            [75] : today is :2023-04-14

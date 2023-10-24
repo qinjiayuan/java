@@ -1,0 +1,11 @@
+2023-10-17 15:09:05.316  DEBUG [main                          ] - o.a.ibatis.transaction.jdbc.JdbcTransaction  [137] : Opening JDBC Connection
+2023-10-17 15:09:05.445  INFO  [main                          ] - AutoCreateReviewFlow                         [204] : error is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.sql.SQLException: Listener refused the connection with the following error:
+ORA-12514, TNS:listener does not currently know of service requested in connect descriptor
+ 
+### The error may exist in mapper/CounterpartyOrgMapper.xml
+### The error may involve sql.CounterpartyOrgMapper.selectByCorporateName
+### The error occurred while executing a query
+### Cause: java.sql.SQLException: Listener refused the connection with the following error:
+ORA-12514, TNS:listener does not currently know of service requested in connect descriptor
+ 

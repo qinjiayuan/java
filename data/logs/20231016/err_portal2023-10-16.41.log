@@ -1,0 +1,16 @@
+2023-10-16 09:52:04.514  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : ==> Parameters: A737F2E67FDC4F96AB0A7BE62E6A53E0(String)
+2023-10-16 09:52:04.551  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : <==    Updates: 4
+2023-10-16 09:52:04.552  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : ==>  Preparing: DELETE FROM CLIENT_REVIEW_RECORD WHERE RECORD_ID = ?
+2023-10-16 09:52:04.553  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : ==> Parameters: A737F2E67FDC4F96AB0A7BE62E6A53E0(String)
+2023-10-16 09:52:04.587  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : <==    Updates: 1
+2023-10-16 09:52:04.588  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : ==>  Preparing: DELETE FROM CLIENT_REVIEW_COUNTERPARTY WHERE RECORD_ID =?
+2023-10-16 09:52:04.588  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : ==> Parameters: 289B76F2D7AB41958FE6E622A1ED981B(String)
+2023-10-16 09:52:04.622  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : <==    Updates: 2
+2023-10-16 09:52:04.622  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : ==>  Preparing: DELETE FROM CLIENT_REVIEW_RECORD WHERE RECORD_ID = ?
+2023-10-16 09:52:04.623  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : ==> Parameters: 289B76F2D7AB41958FE6E622A1ED981B(String)
+2023-10-16 09:52:04.658  DEBUG [main                          ] - s.C.deleteByRecordIdInt                      [137] : <==    Updates: 1
+2023-10-16 09:52:04.658  INFO  [main                          ] - AutoCreateReviewFlow                         [85] : 在途流程已经清除
+2023-10-16 09:52:04.658  DEBUG [main                          ] - s.O.selectProdnum                            [137] : ==>  Preparing: SELECT * FROM OTC_DERIVATIVE_COUNTERPARTY WHERE IS_PROD_HOLDER = '03' AND CORPORATE_NAME = ?
+2023-10-16 09:52:04.659  DEBUG [main                          ] - s.O.selectProdnum                            [137] : ==> Parameters: 测试产品关注类(String)
+2023-10-16 09:52:04.699  DEBUG [main                          ] - s.O.selectProdnum                            [137] : <==      Total: 3
+2023-10-16 09:52:05.106  INFO  [main                          ] - AutoCreateReviewFlow                         [101] : [checkDateEnd=2023-10-16, checkDateStart=2023-10-16, uniCodeList=75643523465432123]

@@ -1,0 +1,14 @@
+2023-10-11 14:45:16.091  INFO  [main                          ] - CreateMonitorFlow                            [73] : today is :2023-04-13
+2023-10-11 14:45:16.095  INFO  [main                          ] - CreateMonitorFlow                            [74] : now is 2023-10-11
+2023-10-11 14:45:16.156  DEBUG [main                          ] - s.O.updateBycorporateName                    [137] : ==>  Preparing: update OTC_DERIVATIVE_COUNTERPARTY SET MASTER_AGREEMENT_DATE = ?, CUSTOMER_MANAGER = ?, CLIENT_QUALIFY_REVIEW = ?, RETURN_VISIT_DATE = ?, ALLOW_BUSI_TYPE = ?, AML_MONITOR_FLAG = ? where corporate_name = ?
+2023-10-11 14:45:16.158  DEBUG [main                          ] - s.O.updateBycorporateName                    [137] : ==> Parameters: 2023-04-13 14:45:16.091(Timestamp), sunbin(String), true(String), 2023-04-13 14:45:16.091(Timestamp), OPTION(String), true(String), 测试产品关注类(String)
+2023-10-11 14:45:16.190  DEBUG [main                          ] - s.O.updateBycorporateName                    [137] : <==    Updates: 4
+2023-10-11 14:45:16.192  DEBUG [main                          ] - s.O.selectClientId                           [137] : ==>  Preparing: SELECT CLIENT_ID FROM OTC_DERIVATIVE_COUNTERPARTY WHERE CORPORATE_NAME = ? AND IS_PROD_HOLDER = '03'
+2023-10-11 14:45:16.192  DEBUG [main                          ] - s.O.selectClientId                           [137] : ==> Parameters: 测试产品关注类(String)
+2023-10-11 14:45:16.248  DEBUG [main                          ] - s.O.selectClientId                           [137] : <==      Total: 3
+2023-10-11 14:45:16.786  INFO  [main                          ] - CreateMonitorFlow                            [97] : [clientId=DEV1100106499, date=2023-10-11]
+2023-10-11 14:45:20.512  INFO  [main                          ] - CreateMonitorFlow                            [102] : {"serviceId":"success","errCode":{"code":200,"chs":"成功","eng":"success","exceptionClass":null},"errMsg":null,"data":"发起流程完成"}
+2023-10-11 14:45:20.512  INFO  [main                          ] - CreateMonitorFlow                            [97] : [clientId=DEV1100106356, date=2023-10-11]
+2023-10-11 14:45:24.165  INFO  [main                          ] - CreateMonitorFlow                            [102] : {"serviceId":"success","errCode":{"code":200,"chs":"成功","eng":"success","exceptionClass":null},"errMsg":null,"data":"发起流程完成"}
+2023-10-11 14:45:24.166  INFO  [main                          ] - CreateMonitorFlow                            [97] : [clientId=DEV1100106722, date=2023-10-11]
+2023-10-11 14:45:27.631  INFO  [main                          ] - CreateMonitorFlow                            [102] : {"serviceId":"success","errCode":{"code":200,"chs":"成功","eng":"success","exceptionClass":null},"errMsg":null,"data":"发起流程完成"}

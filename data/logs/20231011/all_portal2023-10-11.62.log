@@ -1,0 +1,16 @@
+2023-10-11 13:40:00.045  INFO  [main                          ] - CreateMonitorFlow                            [67] : today is :2023-04-13
+2023-10-11 13:40:00.093  DEBUG [main                          ] - s.O.updateBycorporateName                    [137] : ==>  Preparing: update OTC_DERIVATIVE_COUNTERPARTY SET MASTER_AGREEMENT_DATE = ?, CUSTOMER_MANAGER = ?, CLIENT_QUALIFY_REVIEW = ?, RETURN_VISIT_DATE = ?, ALLOW_BUSI_TYPE = ?, AML_MONITOR_FLAG = ? where corporate_name = ?
+2023-10-11 13:40:00.094  DEBUG [main                          ] - s.O.updateBycorporateName                    [137] : ==> Parameters: 2023-04-13 13:40:00.045(Timestamp), 孙滨(String), true(String), 2023-04-13 13:40:00.045(Timestamp), OPTION(String), true(String), 测试产品关注类(String)
+2023-10-11 13:40:00.128  DEBUG [main                          ] - s.O.updateBycorporateName                    [137] : <==    Updates: 4
+2023-10-11 13:40:00.130  DEBUG [main                          ] - s.O.selectClientId                           [137] : ==>  Preparing: SELECT CLIENT_ID FROM OTC_DERIVATIVE_COUNTERPARTY WHERE CORPORATE_NAME = ? AND IS_PROD_HOLDER = '03'
+2023-10-11 13:40:00.131  DEBUG [main                          ] - s.O.selectClientId                           [137] : ==> Parameters: 测试产品关注类(String)
+2023-10-11 13:40:00.183  DEBUG [main                          ] - s.O.selectClientId                           [137] : <==      Total: 3
+2023-10-11 13:40:00.629  INFO  [main                          ] - CreateMonitorFlow                            [91] : [clientId=DEV1100106499, date=2023-04-13]
+2023-10-11 13:40:00.684  INFO  [main                          ] - CreateMonitorFlow                            [95] : 执行完毕
+2023-10-11 13:40:00.684  INFO  [main                          ] - CreateMonitorFlow                            [97] : [Content-Length: 0,Chunked: false]
+2023-10-11 13:40:00.684  INFO  [main                          ] - CreateMonitorFlow                            [91] : [clientId=DEV1100106356, date=2023-04-13]
+2023-10-11 13:40:00.707  INFO  [main                          ] - CreateMonitorFlow                            [95] : 执行完毕
+2023-10-11 13:40:00.707  INFO  [main                          ] - CreateMonitorFlow                            [97] : [Content-Length: 0,Chunked: false]
+2023-10-11 13:40:00.707  INFO  [main                          ] - CreateMonitorFlow                            [91] : [clientId=DEV1100106722, date=2023-04-13]
+2023-10-11 13:40:00.716  INFO  [main                          ] - CreateMonitorFlow                            [95] : 执行完毕
+2023-10-11 13:40:00.716  INFO  [main                          ] - CreateMonitorFlow                            [97] : [Content-Length: 0,Chunked: false]

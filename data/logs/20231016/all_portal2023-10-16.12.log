@@ -1,0 +1,9 @@
+2023-10-16 08:42:54.406  DEBUG [main                          ] - sql.ClientReviewDetailMapper.insertSelective [137] : ==> Parameters: BX1QKHSFZR948879SCXGPONAZ8ZC4N3U(String), 84AC82F2F46A4DA48AF72581FCAC0A28(String), 11(String), 老师(String), 123@qq.com(String), 13112345678(String), N(String), 2023-10-16 08:41:53.776(Timestamp), java.io.StringReader@4b1d6571(StringReader), java.io.StringReader@1b835480(StringReader)
+2023-10-16 08:42:54.446  DEBUG [main                          ] - sql.ClientReviewDetailMapper.insertSelective [137] : <==    Updates: 1
+2023-10-16 08:42:54.448  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : ==>  Preparing: update CLIENT_REVIEW_COUNTERPARTY SET BENEFIT_OVER_FLAG = ?, AGREE_INFO = ? where record_Id = ?
+2023-10-16 08:42:54.452  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : ==> Parameters: 1(String), Y(String), 84AC82F2F46A4DA48AF72581FCAC0A28(String)
+2023-10-16 08:42:54.487  DEBUG [main                          ] - s.ClientReviewCounterpartyMapper.updateinfo  [137] : <==    Updates: 2
+2023-10-16 08:42:54.491  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : ==>  Preparing: update CLIENT_REVIEW_RECORD SET SALE_PERSON = ?, ACCOUNTING_FIRM_NAME = ? where record_id = ?
+2023-10-16 08:42:54.491  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : ==> Parameters: renyu(String), 测试专用(String), 84AC82F2F46A4DA48AF72581FCAC0A28(String)
+2023-10-16 08:42:54.524  DEBUG [main                          ] - s.C.updateByPrimaryKeySelective              [137] : <==    Updates: 1
+2023-10-16 08:42:54.525  INFO  [main                          ] - AutoCreateReviewFlow                         [169] : 已更新基本信息

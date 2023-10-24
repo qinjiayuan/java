@@ -1,0 +1,8 @@
+2023-10-17 15:08:07.681  DEBUG [main                          ] - o.a.i.datasource.pooled.PooledDataSource     [434] : Created connection 168366.
+2023-10-17 15:08:07.687  DEBUG [main                          ] - s.C.selectByCorporateName                    [137] : ==>  Preparing: SELECT * FROM COUNTERPARTY_ORG WHERE 1=1 AND CORPORATE_NAME = ?
+2023-10-17 15:08:07.806  DEBUG [main                          ] - s.C.selectByCorporateName                    [137] : ==> Parameters: 深圳平安大华汇通********(String)
+2023-10-17 15:08:07.881  DEBUG [main                          ] - s.C.selectByCorporateName                    [137] : <==      Total: 0
+2023-10-17 15:08:07.885  DEBUG [main                          ] - sql.AorgMapper.selectExists                  [137] : ==>  Preparing: SELECT a2.userid , a.dept_code FROM AORG a LEFT JOIN Auser a2 ON a.ORGID = a2.ORGID WHERE a2.USERNAME =?
+2023-10-17 15:08:07.886  DEBUG [main                          ] - sql.AorgMapper.selectExists                  [137] : ==> Parameters: 孙滨(String)
+2023-10-17 15:08:07.922  DEBUG [main                          ] - sql.AorgMapper.selectExists                  [137] : <==      Total: 1
+2023-10-17 15:08:07.922  INFO  [main                          ] - AutoCreateReviewFlow                         [204] : error is java.lang.IllegalArgumentException: {error:该机构不存在

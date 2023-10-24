@@ -1,0 +1,9 @@
+2023-10-11 17:29:33.404  INFO  [main                          ] - CreateMonitorFlow                            [75] : today is :2023-04-13
+2023-10-11 17:29:33.406  INFO  [main                          ] - CreateMonitorFlow                            [76] : now is 2023-10-11
+2023-10-11 17:29:33.462  DEBUG [main                          ] - s.O.updateBycorporateName                    [137] : ==>  Preparing: update OTC_DERIVATIVE_COUNTERPARTY SET MASTER_AGREEMENT_DATE = ?, CUSTOMER_MANAGER = ?, CLIENT_QUALIFY_REVIEW = ?, RETURN_VISIT_DATE = ?, ALLOW_BUSI_TYPE = ?, AML_MONITOR_FLAG = ? where corporate_name = ?
+2023-10-11 17:29:33.463  DEBUG [main                          ] - s.O.updateBycorporateName                    [137] : ==> Parameters: 2023-04-13 17:29:33.403(Timestamp), sunbin(String), true(String), 2023-04-13 17:29:33.403(Timestamp), OPTION(String), true(String), 测试产品关注类(String)
+2023-10-11 17:29:33.494  DEBUG [main                          ] - s.O.updateBycorporateName                    [137] : <==    Updates: 4
+2023-10-11 17:29:33.497  DEBUG [main                          ] - s.O.selectProdnum                            [137] : ==>  Preparing: SELECT * FROM OTC_DERIVATIVE_COUNTERPARTY WHERE IS_PROD_HOLDER = '03' AND CORPORATE_NAME = ?
+2023-10-11 17:29:33.498  DEBUG [main                          ] - s.O.selectProdnum                            [137] : ==> Parameters: 测试产品关注类(String)
+2023-10-11 17:29:33.564  DEBUG [main                          ] - s.O.selectProdnum                            [137] : <==      Total: 3
+2023-10-11 17:29:33.566  INFO  [main                          ] - CreateMonitorFlow                            [92] : [DEV1100106499, DEV1100106356, DEV1100106722]

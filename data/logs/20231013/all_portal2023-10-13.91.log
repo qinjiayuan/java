@@ -1,0 +1,16 @@
+2023-10-13 09:51:50.360  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==> Parameters: CCPAIMIS(String), D3B8F147CC8D4927933B0689693653AD(String), c77f7134-550b-47fc-b617-db098f529c54(String)
+2023-10-13 09:51:50.392  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : <==    Updates: 1
+2023-10-13 09:51:50.392  INFO  [main                          ] - AutoCreateReviewFlow                         [141] : 正在上传的recordid:D3B8F147CC8D4927933B0689693653AD
+2023-10-13 09:51:50.392  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==>  Preparing: UPDATE CLIENT_REVIEW_FILE_RECORD SET FILE_BELONG = ? , RECORD_ID = ? WHERE S3_FILE_ID =?
+2023-10-13 09:51:50.393  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==> Parameters: CC(String), D3B8F147CC8D4927933B0689693653AD(String), 429843ff-b8e1-4cc4-962a-57b40e6e17cd(String)
+2023-10-13 09:51:50.423  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : <==    Updates: 1
+2023-10-13 09:51:50.423  INFO  [main                          ] - AutoCreateReviewFlow                         [141] : 正在上传的recordid:D3B8F147CC8D4927933B0689693653AD
+2023-10-13 09:51:50.423  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==>  Preparing: UPDATE CLIENT_REVIEW_FILE_RECORD SET FILE_BELONG = ? , RECORD_ID = ? WHERE S3_FILE_ID =?
+2023-10-13 09:51:50.424  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==> Parameters: P2P(String), D3B8F147CC8D4927933B0689693653AD(String), 3513cc32-c3ee-456f-9e05-a299bd1f833d(String)
+2023-10-13 09:51:50.455  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : <==    Updates: 1
+2023-10-13 09:51:50.455  INFO  [main                          ] - AutoCreateReviewFlow                         [141] : 正在上传的recordid:D3B8F147CC8D4927933B0689693653AD
+2023-10-13 09:51:50.456  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==>  Preparing: UPDATE CLIENT_REVIEW_FILE_RECORD SET FILE_BELONG = ? , RECORD_ID = ? WHERE S3_FILE_ID =?
+2023-10-13 09:51:50.456  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==> Parameters: OTHERS(String), D3B8F147CC8D4927933B0689693653AD(String), 5a689309-edaa-4499-890d-9e03a17b14b7(String)
+2023-10-13 09:51:50.497  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : <==    Updates: 1
+2023-10-13 09:51:50.498  INFO  [main                          ] - AutoCreateReviewFlow                         [141] : 正在上传的recordid:D3B8F147CC8D4927933B0689693653AD
+2023-10-13 09:51:50.498  DEBUG [main                          ] - s.C.updateS3FileIdInt                        [137] : ==>  Preparing: UPDATE CLIENT_REVIEW_FILE_RECORD SET FILE_BELONG = ? , RECORD_ID = ? WHERE S3_FILE_ID =?

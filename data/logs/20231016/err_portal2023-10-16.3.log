@@ -1,0 +1,8 @@
+2023-10-16 08:41:52.375  DEBUG [main                          ] - o.a.i.datasource.pooled.PooledDataSource     [434] : Created connection 1357563986.
+2023-10-16 08:41:52.389  DEBUG [main                          ] - s.C.selectByCorporateName                    [137] : ==>  Preparing: SELECT * FROM COUNTERPARTY_ORG WHERE 1=1 AND CORPORATE_NAME = ?
+2023-10-16 08:41:53.211  DEBUG [main                          ] - s.C.selectByCorporateName                    [137] : ==> Parameters: 测试产品关注类(String)
+2023-10-16 08:41:53.428  DEBUG [main                          ] - s.C.selectByCorporateName                    [137] : <==      Total: 1
+2023-10-16 08:41:53.432  DEBUG [main                          ] - sql.AorgMapper.selectExists                  [137] : ==>  Preparing: SELECT a2.userid , a.dept_code FROM AORG a LEFT JOIN Auser a2 ON a.ORGID = a2.ORGID WHERE a2.USERNAME =?
+2023-10-16 08:41:53.433  DEBUG [main                          ] - sql.AorgMapper.selectExists                  [137] : ==> Parameters: 孙滨(String)
+2023-10-16 08:41:53.494  DEBUG [main                          ] - sql.AorgMapper.selectExists                  [137] : <==      Total: 1
+2023-10-16 08:41:53.606  DEBUG [main                          ] - s.C.updateBycorporateName                    [137] : ==>  Preparing: update COUNTERPARTY_ORG SET AML_MONITOR_FLAG = ? where corporate_name = ?

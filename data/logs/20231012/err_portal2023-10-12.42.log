@@ -1,0 +1,16 @@
+2023-10-12 16:52:07.072  DEBUG [main                          ] - s.C.updateBycorporateName                    [137] : ==>  Preparing: update COUNTERPARTY_ORG SET AML_MONITOR_FLAG = ? where corporate_name = ?
+2023-10-12 16:52:07.076  DEBUG [main                          ] - s.C.updateBycorporateName                    [137] : ==> Parameters: true(String), 测试产品关注类(String)
+2023-10-12 16:52:07.108  DEBUG [main                          ] - s.C.updateBycorporateName                    [137] : <==    Updates: 1
+2023-10-12 16:52:07.113  DEBUG [main                          ] - s.O.selectByCorporateName                    [137] : ==>  Preparing: SELECT *FROM OTC_DERIVATIVE_COUNTERPARTY WHERE CORPORATE_NAME = ?
+2023-10-12 16:52:07.114  DEBUG [main                          ] - s.O.selectByCorporateName                    [137] : ==> Parameters: 测试产品关注类(String)
+2023-10-12 16:52:07.162  DEBUG [main                          ] - s.O.selectByCorporateName                    [137] : <==      Total: 4
+2023-10-12 16:52:07.163  INFO  [main                          ] - AutoCreateReviewFlow                         [63] : 今天的时间是Thu Oct 12 16:52:07 CST 2023
+2023-10-12 16:52:07.202  DEBUG [main                          ] - s.O.updateBycorporateName                    [137] : ==>  Preparing: update OTC_DERIVATIVE_COUNTERPARTY SET INTRODUCTION_DEPARTMENT = ?, CUSTOMER_MANAGER = ?, RETURN_VISIT_DATE = ?, AML_MONITOR_FLAG = ?, NO_AUTO_VISIT = ? where corporate_name = ?
+2023-10-12 16:52:07.203  DEBUG [main                          ] - s.O.updateBycorporateName                    [137] : ==> Parameters: 8846(String), sunbin(String), 2023-10-12 16:52:07.163(Timestamp), true(String), false(String), 测试产品关注类(String)
+2023-10-12 16:52:07.242  DEBUG [main                          ] - s.O.updateBycorporateName                    [137] : <==    Updates: 4
+2023-10-12 16:52:07.242  INFO  [main                          ] - AutoCreateReviewFlow                         [72] : 已经成功更新
+2023-10-12 16:52:07.244  DEBUG [main                          ] - s.C.selectByClientName                       [137] : ==>  Preparing: SELECT * FROM CLIENT_REVIEW_RECORD WHERE 1=1 AND CLIENT_NAME = ? AND current_status not in ('CLOSED')
+2023-10-12 16:52:07.244  DEBUG [main                          ] - s.C.selectByClientName                       [137] : ==> Parameters: 测试产品关注类(String)
+2023-10-12 16:52:07.277  DEBUG [main                          ] - s.C.selectByClientName                       [137] : <==      Total: 2
+2023-10-12 16:52:07.279  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : ==>  Preparing: DELETE FROM CLIENT_REVIEW_COUNTERPARTY WHERE RECORD_ID =?
+2023-10-12 16:52:07.279  DEBUG [main                          ] - s.C.deleteByRecordId                         [137] : ==> Parameters: 60F2F056591D46EC96ECB276108B7A5D(String)
